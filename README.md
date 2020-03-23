@@ -5,7 +5,7 @@ Revision JavaScript Create first Server
 Node 12.16.1
 npm 6.13.7
 
-## install all dependencies
+## Install all dependencies
 ```
   yarn
 ```
