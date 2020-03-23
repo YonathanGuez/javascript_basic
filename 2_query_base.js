@@ -7,10 +7,12 @@
 // and you will get zipCode
 const {createServer} = require("http")
 const url = require('url');
+const hostname = '127.0.0.1';
+const port = 3000;
 
 const server = createServer((req,res) =>{
     let query = url.parse(req.url,true).query
-    console.log(query);
+    console.log(`http://${hostname}:${port}${req.url}`);
     res.writeHead(200, {"Content-Type": "text/html"});
     switch (req.url) {
         case "/":
@@ -30,4 +32,6 @@ const server = createServer((req,res) =>{
     }
     res.end();
 })
-server.listen(3000)
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
