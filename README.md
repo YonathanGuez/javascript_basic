@@ -1,4 +1,4 @@
-# javascript_basic
+# Javascript basic
 Revision JavaScript Create first Server  
 
 ## version
