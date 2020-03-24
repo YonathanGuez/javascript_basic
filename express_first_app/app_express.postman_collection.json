@@ -6,7 +6,10 @@
 		"5e010f6f-c9e8-9205-42b6-21848f630b6a",
 		"7baf0eb8-e80a-0199-454d-8b8d030a43d7",
 		"7cc92714-bca9-aa98-6d13-7881ed5a8050",
-		"fba91d4e-f02d-8f3d-5541-59391f1ca631"
+		"fba91d4e-f02d-8f3d-5541-59391f1ca631",
+		"5cf47217-096c-1ec2-2de6-6af7d5109dfd",
+		"547c283b-1817-d2f8-2f62-67ad843fb720",
+		"e24f5277-80a9-d7b2-0743-1a24d4d3147f"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -14,6 +17,75 @@
 	"owner": 0,
 	"public": false,
 	"requests": [
+		{
+			"id": "547c283b-1817-d2f8-2f62-67ad843fb720",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/members/username/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1aec406a-db89-42b6-d5e9-6ea4fe6d592b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/api/members/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1585036889512,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"yoni\"\n}"
+		},
+		{
+			"id": "5cf47217-096c-1ec2-2de6-6af7d5109dfd",
+			"headers": "//Content-Type: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3000/api/members/user/?name=yo",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "yo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585036614001,
+			"name": "http://localhost:3000/api/members/1",
+			"description": "",
+			"collectionId": "1aec406a-db89-42b6-d5e9-6ea4fe6d592b",
+			"responses": [],
+			"rawModeData": ""
+		},
 		{
 			"id": "5e010f6f-c9e8-9205-42b6-21848f630b6a",
 			"headers": "",
@@ -96,6 +168,37 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"rawModeData": "{\n\t\"name\": \"test\"\n}"
+		},
+		{
+			"id": "e24f5277-80a9-d7b2-0743-1a24d4d3147f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/members/alluser",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1aec406a-db89-42b6-d5e9-6ea4fe6d592b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/api/members/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1585037232660,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"yoni\"\n}"
 		},
 		{
 			"id": "fba91d4e-f02d-8f3d-5541-59391f1ca631",
