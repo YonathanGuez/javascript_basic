@@ -19,7 +19,7 @@ Create table comapany with id and name
 	in Postman
 
 ### Get:
-	http://localhost:3000/api/members/1 </br>
-	http://localhost:3000/api/members/alluser </br>
+	http://localhost:3000/api/members/1 
+	http://localhost:3000/api/members/alluser 
 ### Post:
 	http://localhost:3000/api/members/username/
