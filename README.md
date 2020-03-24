@@ -5,24 +5,10 @@ Revision JavaScript Create first Server
 Node 12.16.1
 npm 6.13.7
 
-## Install all dependencies
-```
-  yarn
-```
+## Folders Training :
 
-## Test :
-
-### Test the server is running :
-```
-  yarn http_base
-```
-http://localhost:3000/ <br/>
-http://localhost:3000/test
-
-
-### Test parameter in URL : zipCode = Number 
-```
-  yarn query
-```
-http://localhost:3000/?zipCode=10016 <br/>
-http://localhost:3000/?zipCosss=10016
+express_first_app : 
+	build api with express and PG 
+	
+server_begin : 
+	Traning with http 
